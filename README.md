@@ -30,3 +30,20 @@ Step 11  Conditional OpenAI API Call: Check if any answers were found. If so, us
 Step 12    Output: Display the final result, which can be either the summarized/interpreted answer or a message indicating that no answer was found.
 
 Each of these steps plays a crucial role in building a comprehensive document retrieval and question-answering system.
+
+Here is how you set it up on your computer
++++++++++++++++++++++++++++++++++++++++++
+
+Requirements: python 3
+
+Git clone this repository: 
+
+    git clone https://github.com/pnmeka/langchain_RAG/
+
+Install the requirements- open AI, Hugging face transformer model, lanchain, pypdf etc
+
+    pip install -r requirements.txt
+
+Update the open AI API in the code line 99
+
+    python3 RAG_langchain.py
