@@ -1,0 +1,4 @@
+#requirements for RAG using langchain
+faiss-cpu>=1.7,<2
+langchain==0.0.249
+pypdf>=3.8,<4
